@@ -1,0 +1,9 @@
+Brute force:
+Compare n elements to each of the n elements and see if they sum up
+Time: O(n2)
+Space: O(n1)
+
+One Pass Hash:
+Instead of checking for duplicates, just proceed forward and check backwards to see if we have complement already.
+Just add the number to the hash in (Value:Index) format and check at the end.
+Return the pair as an array and throw exception otherwise.
