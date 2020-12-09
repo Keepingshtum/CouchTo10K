@@ -1,0 +1,5 @@
+Get digits one by one using / and % by 10 technique
+
+rev = rev*10 + digit
+
+Add a condition to check if integer has overflown
