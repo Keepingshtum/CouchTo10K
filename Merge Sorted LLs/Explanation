@@ -1,0 +1,6 @@
+We have 2 options
+
+Either use a new bigger MXN LL or modify one in place
+
+Driver logic is, compare both end nodes, and set the lesser one as head, the other as cur.next and move the respective pointers
+After one list is done (if there are still elements left in the other). append the remaining elements to the end of the list and return
