@@ -1,0 +1,4 @@
+We want a stack to keep track of brackets -
+The only valid way this happens is if we keep getting open brackets (.[,{ until we get all closing brackets and they cancel out
+Pop out the top of the stack if a matching closer is found. Else just push
+If the stack is not empty at the end of input, the parentheses are not valid
