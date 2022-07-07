@@ -1,0 +1,9 @@
+Two Pointer Approach
+
+Left = start of array
+Right = 1 after
+
+Increment right if left<right -> profit is rising
+otherwise increment left
+
+Profit is max of current profit and left - right
