@@ -1,0 +1,3 @@
+Strip WhiteSpace, Special Chars
+Two pointers from opposite ends of string, return false if mismatch
+Otherwise return true
