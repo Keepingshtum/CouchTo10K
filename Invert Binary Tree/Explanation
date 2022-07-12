@@ -1,0 +1,15 @@
+Base case: Root is none. Exit here.
+
+Recursion case:
+
+We want to first:
+
+ flip the root.right
+ 
+ then 
+ 
+ flip the root.left
+ 
+ then swap the current root.left,root.right
+ 
+ 
