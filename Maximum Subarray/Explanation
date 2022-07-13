@@ -1,0 +1,5 @@
+We want to do a one pass , so the way to do that is keep a running total of current sum and max sum
+
+Add each number to current sum - and if the sum is less than 0, we discard it (because we want a sum over 0)
+
+Keep comparing current sum to Max Sum and return Max sum at the end of the pass.
