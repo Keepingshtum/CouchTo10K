@@ -1,0 +1,5 @@
+First things first, if the colour is the same as the colour to be filled, we just return.
+
+After that, we want to recursively paint colours by going left,right,up,down.
+
+The constraints for this are that they cannnot go out of list bounds - so we add them and we go on our merry way
