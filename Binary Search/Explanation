@@ -1,0 +1,6 @@
+We need to cut our search space in half every time. Initially we start with the full array and low at 0 and high at the end
+
+Middle is Low + (high-low)//2 because we don't want floats, and we don't want to get stuck in an infinite loop because low is always 0 
+
+Depending on whether the target is lesser/greater, we shift low to mid+1 or high to mid -1 and go again
+
