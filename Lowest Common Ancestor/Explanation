@@ -1,0 +1,3 @@
+There is just one trick here to remember: We only need to search if both the smaller and larger elems are in the same subtree 
+
+I.E Small and large are both greater or both smaller than the current value. If so, we search left/right. Otherwise, our current node is LCA
