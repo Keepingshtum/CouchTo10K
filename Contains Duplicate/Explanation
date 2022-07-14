@@ -1,0 +1,3 @@
+Either we use collections.Counter
+
+or we add elems to a set and check whether any duplicates are found
