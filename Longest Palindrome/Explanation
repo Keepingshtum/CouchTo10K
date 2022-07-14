@@ -1,0 +1,7 @@
+We need to add Even counts of letters to get the longest palindrome, i.e 4 as, 2bs...
+
+So if a letter count is even, we add it directly to largest length. If it's odd, we add count -1
+
+To check whether there were leftoveers, check whether the largest palindrome is an anagram of the string itself by comparing lens
+
+If so, return len. else return Largest+1
