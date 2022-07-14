@@ -2,4 +2,8 @@ Either just use collections.Counter.most_common(1)[0][0]
 
 or Assume first elem is our guess, keep incrementing/decrementing count based on match/no match
 
-Take the current elem as next guess if count is down to 0
+Take the current elem as next guess if count is down to 0 (this is Boyer-Moore Algorithm)
+
+
+Other approaches - Sort then check middle (n/2,n/2-1)
+Just pick elements at random and then verify whether they occur more than n/2 times - worst case 0(infinity) but expected case is O(n)
