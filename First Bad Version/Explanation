@@ -1,0 +1,4 @@
+Basically Binary Search with one modification: 
+We also need to check mid -1. If Mid -1 is not bad but Mid is, then mid is our first bad version
+
+The other modification is low LESS THAN OR EQUAL TO high instead of the regular < inequality
