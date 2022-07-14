@@ -1,0 +1,5 @@
+Either just use collections.Counter.most_common(1)[0][0]
+
+or Assume first elem is our guess, keep incrementing/decrementing count based on match/no match
+
+Take the current elem as next guess if count is down to 0
