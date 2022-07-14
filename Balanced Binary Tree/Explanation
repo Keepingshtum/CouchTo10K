@@ -1,0 +1,11 @@
+We need to keep track of subtree heights... which we do by 1+ max of left/right
+
+Base case is return 0 on leaf nodes
+
+Traversal is the regular recursive approach.
+
+The breaking case is if left - right absval is >1 , we return -1
+
+AND if we see -1 in left or right, we return -1 until we break out of the recursion
+
+Return a bool on whether our util function returns -1 or not. 
