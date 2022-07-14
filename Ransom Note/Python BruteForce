@@ -1,0 +1,7 @@
+class Solution:
+    def canConstruct(self, ransomNote: str, magazine: str) -> bool:
+        
+        for letter in ransomNote:
+            if magazine.count(letter) < ransomNote.count(letter):
+                return False
+        return True
