@@ -1,0 +1,7 @@
+Basically we can get this by memoisation
+
+We just need to keep adding the last two results we have upto n to get the number of ways to climb n steps
+
+we do that by 
+
+ways.append(ways[i]+ways[i-1])
