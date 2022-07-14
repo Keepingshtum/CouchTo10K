@@ -1,0 +1,8 @@
+Two Approaches: O(N) Memory and O(1) Memory
+
+O(N):
+Keep adding vals to list and checking if the val is in the list. If so, return True, otherwise return false once list terminates
+
+O(1):
+Have two pointers. One pointer goes 1 step, other goes 2 steps per iter. If they eventually are equal, there is a loop
+THe important thing to remember is, if there is no cycle, you need to break if slow.next or fast.next is none 
