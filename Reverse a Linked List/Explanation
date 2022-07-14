@@ -1,0 +1,8 @@
+Previous is None.
+Current is head.
+
+Switch logic:
+
+Temp = cur.next
+cur.next = prev
+cur,prev = temp,cur
