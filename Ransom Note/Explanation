@@ -1,0 +1,2 @@
+Essentially , we need to count whether magazine has enough occurences of each letter needed in ransom note. Either we can do that manually in a for loop,
+Or use collections.Counter and then check whether each count of Magazine is greater than ransom note
