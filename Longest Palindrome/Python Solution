@@ -1,0 +1,12 @@
+class Solution:
+    def longestPalindrome(self, s: str) -> int:
+        counts = collections.Counter(s)
+        Largest = 0
+        flag = False
+        for number in counts:
+            if (counts[number] - (counts[number]%2)) >= 2:
+                Largest +=  (counts[number] - (counts[number]%2))
+        if Largest == len(s):
+            return Largest
+        else:
+            return Largest+1
