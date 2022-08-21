@@ -12,10 +12,7 @@ class Solution:
             temp = temp.next
             counter +=1
         
-        if counter%2 == 0:
-            middle = (counter//2)
-        else:
-            middle = counter//2
+        middle = counter // 2
         
         for i in range(0,middle):
             head = head.next
