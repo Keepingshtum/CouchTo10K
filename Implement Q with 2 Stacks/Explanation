@@ -1,0 +1,22 @@
+O(1) push, O(N) pop:
+
+push as usual to stack 1
+front is first elem that was pushed
+
+at the time of pop, pop stack 1 to stack 2
+Pop stack 2 to get the front of the queue
+Update front
+
+Pop stack 2 back to stack 1 (2n operations)
+
+
+
+Amortised O(1):
+
+Push same as above
+
+Pop, if stack2 is empty, pop stack1 to stack 2
+DON'T Pop stack2 back to stack 1 if new push comes - push as usual
+Pop Stack1 to stack 2 now only if stack2 becomes empty
+
+Update front as top of Stack2.
