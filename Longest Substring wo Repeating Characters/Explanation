@@ -1,0 +1,5 @@
+Two pointer approach
+
+Use a set to keep track of unique chars, shift right by one if new chars are found
+
+If a duplicate is found, remove the first from the set, and shift left by one
