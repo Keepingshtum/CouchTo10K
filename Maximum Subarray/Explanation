@@ -3,3 +3,6 @@ We want to do a one pass , so the way to do that is keep a running total of curr
 Add each number to current sum - and if the sum is less than 0, we discard it (because we want a sum over 0)
 
 Keep comparing current sum to Max Sum and return Max sum at the end of the pass.
+
+
+We can do this via the DP approach as well using an array instead of the logic above
