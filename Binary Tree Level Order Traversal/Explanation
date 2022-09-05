@@ -1,0 +1,17 @@
+Big idea: Use a tuple to keep track of levels i.e
+
+(node,level)
+
+Use a dequeue to keep track of nodes -> Append root,0
+
+Driver logic is 
+
+Pop the queue
+If node is none, continue
+If node is on current level, append value and continue
+Else the node is a next level node
+Update the current level and add this current node to the list of current nodes
+
+Add the children of the current node as next level nodes to the queue
+
+(Don't forget to add the nodes to the answer properly!)
