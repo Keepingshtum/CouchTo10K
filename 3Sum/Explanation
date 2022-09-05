@@ -1,0 +1,15 @@
+Approach 1: 
+
+Sort the array, then use 3 pointers
+i from 0->len(nums)-2
+left = i+1
+right = len(nums)-1
+
+while left<right,
+check nums[i]+nums[l]+nums[r] == 0
+
+Use a set to see if the solution has already been added - if not seen, add to set
+
+shift pointers as normal using the sum > target logic
+
+return set as the result
