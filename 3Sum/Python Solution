@@ -1,0 +1,22 @@
+class Solution:
+    def threeSum(self, nums: List[int]) -> List[List[int]]:
+        
+        if len(nums) == 3:
+            return [nums] if sum(nums) == 0 else []
+        
+        nums.sort()
+        seen = set()
+        for i in range(len(nums)-2):
+            
+            l = i+1 
+            r = len(nums)-1
+            while(l<r):
+                curSum = nums[l]+nums[i]+nums[r]
+                if curSum == 0:
+                    seen.add((nums[l],nums[i],nums[r]))
+
+                if curSum > 0:
+                    r -= 1
+                else:
+                    l += 1
+        return seen
